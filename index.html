@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./styles.css">
+    </link>
+    <title>Movies App</title>
+</head>
+
+<body>
+    <nav id="navbar-main">
+        <div class="menu-icon"><span class="fas fa-bars"></span></div>
+        <div class="logo">Movies Dairy</div>
+
+        <ul class="menu">
+            <li>
+                <a href="./index.html">HOME</a>
+            </li>
+            <li>
+                <a href="./favorite.html">FAVORITES</a>
+            </li>
+            <!-- <li>
+                <a href="#">WATCHTIME</a>
+            </li> -->
+            <li>
+                <a href="./wishlist.html">WISHLIST</a>
+            </li>
+        </ul>
+        <!-- <div class="search-icon"><a href="./favorite.html"> <span class="fas fa-search"></span></a></div> -->
+        <div class="cancel-icon"><span class="fas fa-times"></span></div>
+
+        <div id="search-container">
+            <!-- <input type="text" id="search-bar" placeholder="search..." /> -->
+            <a href="./search.html"><i class="fal fa-search"></i></a>
+        </div>
+
+
+    </nav>
+    <div class="title-top-rated">
+        <h1>TODAY'S TRENDING MOVIES</h1>
+
+    </div>
+    <div class="top-rated-movies">
+        
+    </div>
+
+    <div class="overlay">
+        <div class="about-movie">
+            <div class="movie-card">
+                <h1>LOADING...</h1>
+                
+            </div>
+            <a class="close">close</a>
+            
+        </div>
+    </div>
+
+    <div id="toasts"></div>
+    
+    <!-- <div id="top-rated" class="movies">
+                <img class ="movie-poster" src="https://image.tmdb.org/t/p/w1280/fYtHxTxlhzD4QWfEbrC1rypysSD.jpg">
+                <div class="movie-info">
+                    <h3 class="movie-title">dsada</h3>
+                    <span class="movie-rating">8.4</span>
+                </div>
+        </div> -->
+
+
+
+    <script src="./index.js"></script>
+    <script src="./addToFavorites.js"></script>
+    <script src="./addToWishlist.js"></script>
+</body>
+
+</html>
